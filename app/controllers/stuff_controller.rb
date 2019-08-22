@@ -1,6 +1,7 @@
 class StuffController < ApplicationController
 
-def index
-end
+  def index
+    @stuff = Stuff.all
+  end
 
 end
